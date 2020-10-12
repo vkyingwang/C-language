@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+	int i,A,B,C;
+	printf("水仙花数有：") ;
+	for(i=100;i<=999;i++)
+	{
+		A=i/100;
+		B=(i/10)%10;
+		C=i%10;
+		if(i==A*A*A+B*B*B+C*C*C)
+		printf("%d ",i);
+	}
+	return 0;
+}
