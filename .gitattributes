@@ -1,3 +1,3 @@
-*.js linguist-language=C language
-*.css linguist-language=C language
-*.html linguist-language=C language
+*.js linguist-language=C-language
+*.css linguist-language=C-language
+*.html linguist-language=C-language
