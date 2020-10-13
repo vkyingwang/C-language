@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+	int i;
+	float M,N,sum;
+	for(i=1,M=100,N=0,sum=0;i<=10;i++)
+	{
+		sum=sum+M+N;
+		N=M/2;
+		M=N;
+		
+	}
+	printf("第十次落地时小球运动距离为%f米，反弹高度为%f米",sum,N);
+	return 0;
+}
