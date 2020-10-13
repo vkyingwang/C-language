@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+	int i,peach;
+	for(i=10,peach=1;i>1;i--)
+	{
+		peach=(peach+1)*2;
+	}
+	printf("第一天总共有%d个桃子",peach);
+	return 0;
+ } 
